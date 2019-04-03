@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         imageModelArrayList = new ArrayList<>();
         imageModelArrayList = populateList();
 
-        init();
+        onPageTransition();
     }
 
     // getting data from the list
@@ -46,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
         return list;
     }
 
-    private void init() {
+
+    private void onPageTransition() {
 
         mPager.setAdapter(new ViewPagerAdapter(MainActivity.this, imageModelArrayList));
 
