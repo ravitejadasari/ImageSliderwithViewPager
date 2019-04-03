@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Transtion of image and set time for image transition
+    // Transtion of image and set time for image transition and period
     private void onPageTransition() {
 
         mPager.setAdapter(new ViewPagerAdapter(MainActivity.this, imageModelArrayList));
