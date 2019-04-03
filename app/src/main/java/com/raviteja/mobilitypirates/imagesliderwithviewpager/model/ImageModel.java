@@ -1,6 +1,7 @@
 package com.raviteja.mobilitypirates.imagesliderwithviewpager.model;
 
 public class ImageModel {
+
     private int image_drawable;
 
     public int getImage_drawable() {
